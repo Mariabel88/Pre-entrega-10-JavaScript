@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUMEN | Iluminación LED</title>
+  
+  <!-- Estilos de Toastify y propios -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" href="./css/estilos.css">
+
+  <!-- Librerías externas -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js" defer></script>
+
+  <!-- Script de la aplicación -->
+  <script defer src="./js/main.js"></script>
+</head>
+<body>
+
+  <header class="header">
+    <h1>LUMEN - Iluminación LED</h1>
+    <p id="mensaje-promo" class="promo"></p>
+  </header>
+
+  <main class="contenedor-principal">
+
+    <!-- Catálogo y filtros -->
+    <section class="seccion-bloque">
+      <h2>Catálogo de productos</h2>
+      <div class="filtros-contenedor">
+        <input type="text" id="input-busqueda" placeholder="Buscar producto...">
+        <select id="filtro-categoria">
+          <option value="todas">Todas las categorías</option>
+          <option value="Tiras LED">Tiras LED</option>
+          <option value="Paneles">Paneles</option>
+          <option value="Lámparas">Lámparas</option>
+          <option value="Perfiles">Perfiles</option>
+        </select>
+      </div>
+
+      <div id="contenedor-productos" class="grid-productos"></div>
+    </section>
+
+    <!-- Carrito de compras -->
+    <section class="seccion-bloque seccion-carrito">
+      <h2>Tu Carrito de Compras</h2>
+      <div id="contenedor-carrito"></div>
+
+      <div class="resumen-carrito">
+        <p><strong>Total a pagar:</strong> $<span id="total-carrito">0</span></p>
+        <button id="btn-vaciar" class="btn-secundario">Vaciar Carrito</button>
+        <button id="btn-finalizar" class="btn-primario">Finalizar Compra</button>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>

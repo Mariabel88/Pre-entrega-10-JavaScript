@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "nombre": "Tira LED Cálida 2700K",
+    "categoria": "Tiras LED",
+    "precio": 1500,
+    "stock": 10
+  },
+  {
+    "id": 2,
+    "nombre": "Tira LED RGB Neón",
+    "categoria": "Tiras LED",
+    "precio": 2500,
+    "stock": 8
+  },
+  {
+    "id": 3,
+    "nombre": "Tira LED Fría 6500K",
+    "categoria": "Tiras LED",
+    "precio": 1400,
+    "stock": 12
+  },
+  {
+    "id": 4,
+    "nombre": "Panel LED Embutir 18W",
+    "categoria": "Paneles",
+    "precio": 12000,
+    "stock": 15
+  },
+  {
+    "id": 5,
+    "nombre": "Panel LED Redondo 24W",
+    "categoria": "Paneles",
+    "precio": 16500,
+    "stock": 6
+  },
+  {
+    "id": 6,
+    "nombre": "Plafón LED Superficie 12W",
+    "categoria": "Paneles",
+    "precio": 9800,
+    "stock": 14
+  },
+  {
+    "id": 7,
+    "nombre": "Lámpara de Pie Nórdica",
+    "categoria": "Lámparas",
+    "precio": 34000,
+    "stock": 5
+  },
+  {
+    "id": 8,
+    "nombre": "Lámpara Colgante Vintage",
+    "categoria": "Lámparas",
+    "precio": 22000,
+    "stock": 7
+  },
+  {
+    "id": 9,
+    "nombre": "Lámpara de Mesa Minimalista",
+    "categoria": "Lámparas",
+    "precio": 18500,
+    "stock": 9
+  },
+  {
+    "id": 10,
+    "nombre": "Perfil de Aluminio Difusor 1m",
+    "categoria": "Perfiles",
+    "precio": 800,
+    "stock": 25
+  },
+  {
+    "id": 11,
+    "nombre": "Perfil de Aluminio Esquinero 2m",
+    "categoria": "Perfiles",
+    "precio": 1900,
+    "stock": 18
+  },
+  {
+    "id": 12,
+    "nombre": "Perfil de Empotrar con Difusor",
+    "categoria": "Perfiles",
+    "precio": 2400,
+    "stock": 11
+  }
+]
